@@ -156,7 +156,3 @@ AI & Data Analytics Enthusiast
 
 ---
 
-<p align="center"><b>Designed to meet industry expectations for AI and Data Analyst internship roles.</b></p>
-
----
-
