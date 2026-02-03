@@ -1,44 +1,62 @@
-# FAANG Stock Price Analysis & Prediction
+<div align="center">
+
+<h1 style="color:#4F46E5;">FAANG Stock Price Analysis & Prediction</h1>
+
+<p><b style="color:#0F172A;">AI & Data Analytics Project | Internship-Oriented</b></p>
+
+<p>
+  <img src="https://img.shields.io/badge/Python-Data%20Science-blue" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-green" />
+  <img src="https://img.shields.io/badge/Domain-Financial%20Analytics-purple" />
+</p>
+
+</div>
+
+---
 
 ## Overview
 
-This project demonstrates an end-to-end **Data Analytics (DA)** and **Artificial Intelligence (AI)** workflow applied to real-world **financial time-series data**. The goal is to analyze historical stock prices of FAANG companies and build predictive models using technical indicators and machine learning techniques.
+This project presents an end-to-end **Artificial Intelligence and Data Analytics workflow** applied to **financial time-series data**. It focuses on analyzing historical stock prices of FAANG companies and predicting next-day closing prices using **technical indicators** and **machine learning models**.
 
-The project is designed to showcase skills relevant for **AI / Data Analyst Intern** roles, including data preprocessing, exploratory data analysis, feature engineering, and predictive modeling.
+The project is structured to reflect industry-level practices and is well-suited for **AI Intern** and **Data Analyst Intern** applications.
 
 ---
 
 ## Problem Statement
 
-Stock markets generate large volumes of time-dependent data. Extracting insights and predicting short-term price movements require proper data analysis and machine learning techniques.
+Financial markets generate high-volume, time-dependent data. Extracting meaningful insights and building predictive systems require systematic data analysis and machine learning techniques.
 
-This project aims to:
+**Objectives:**
 
-* Analyze historical FAANG stock price data
-* Engineer technical indicators used in financial analysis
-* Build and evaluate machine learning models for next-day price prediction
+* Analyze historical FAANG stock price trends
+* Engineer technical indicators used in quantitative finance
+* Build predictive models for short-term stock price forecasting
 
 ---
 
 ## Dataset
 
-* **Source**: Historical FAANG stock price data
-* **Format**: CSV file
-* **Frequency**: Daily stock prices
+**Type:** Historical daily stock market data
+**Format:** CSV
+**Companies Covered:** AAPL, AMZN, GOOGL, META, MSFT
 
-### Key Features
+### Core Features
 
-* **Date** – Trading date
-* **Ticker** – Stock symbol (AAPL, AMZN, GOOGL, META, MSFT)
-* **Open, High, Low, Close** – Daily price values
-* **Volume** – Number of shares traded
+| Category         | Attributes             |
+| ---------------- | ---------------------- |
+| Time             | Date                   |
+| Identification   | Ticker                 |
+| Price            | Open, High, Low, Close |
+| Trading Activity | Volume                 |
 
 ### Engineered Features
 
-* Moving Averages: `SMA_7`, `SMA_21`, `EMA_12`, `EMA_26`
-* Momentum Indicators: `RSI_14`, `MACD`, `MACD_Signal`
-* Volatility Indicators: `Bollinger_Upper`, `Bollinger_Lower`, `Volatility_7d`
-* Target Variable: `Next_Day_Close`
+| Indicator Type  | Features                                        |
+| --------------- | ----------------------------------------------- |
+| Moving Averages | SMA_7, SMA_21, EMA_12, EMA_26                   |
+| Momentum        | RSI_14, MACD, MACD_Signal                       |
+| Volatility      | Bollinger_Upper, Bollinger_Lower, Volatility_7d |
+| Target          | Next_Day_Close                                  |
 
 ---
 
@@ -47,109 +65,98 @@ This project aims to:
 1. **Data Cleaning & Preprocessing**
 
    * Handling missing values
-   * Date formatting and sorting
+   * Date parsing and sorting
 
 2. **Exploratory Data Analysis (EDA)**
 
-   * Trend analysis
-   * Price and volume visualization
-   * Correlation analysis
+   * Trend and price movement analysis
+   * Volume and volatility visualization
 
 3. **Feature Engineering**
 
-   * Calculation of technical indicators
-   * Selection of relevant predictive features
+   * Computation of technical indicators
+   * Feature selection for modeling
 
 4. **Model Development**
 
-   * Train-test data split
+   * Train-test split
    * Machine learning model training
-   * Prediction of next-day closing price
 
-5. **Model Evaluation**
+5. **Evaluation**
 
-   * Error metrics (e.g., MAE, RMSE)
-   * Performance comparison
+   * Accuracy and error-based metrics
+   * Performance validation
+
+---
+
+## Model Performance
+
+| Metric      | Result                                                           |
+| ----------- | ---------------------------------------------------------------- |
+| Accuracy    | 85–90%                                                           |
+| Observation | Improved performance with combined trend and momentum indicators |
+
+The results indicate that machine learning models can effectively capture short-term price patterns when supported by strong feature engineering.
 
 ---
 
 ## Tools & Technologies
 
-* **Programming Language**: Python
-* **Environment**: Jupyter Notebook
-* **Libraries**:
-
-  * Pandas, NumPy – Data processing
-  * Matplotlib, Seaborn – Visualization
-  * Scikit-learn – Machine learning
-
----
-
-## Results & Insights
-
-* Technical indicators such as moving averages and RSI effectively capture market trends
-* Volatility indicators help identify unstable market periods
-* Machine learning models demonstrate the feasibility of short-term stock price prediction
-
-### Model Performance
-
-* **Evaluation Metric**: Accuracy (along with error-based metrics)
-* The trained model achieved an **accuracy of approximately 85–90%** on the test dataset (depending on the train–test split and feature selection).
-* Lower prediction error was observed when using a combination of moving averages and momentum indicators.
-
----
-
-## How to Run
-
-1. Clone the repository
-
-   ```bash
-   git clone https://github.com/your-username/FAANG-Stock-Analysis.git
-   ```
-
-2. Install dependencies
-
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn
-   ```
-
-3. Run the notebook
-
-   ```bash
-   jupyter notebook main.ipynb
-   ```
+| Category         | Tools               |
+| ---------------- | ------------------- |
+| Language         | Python              |
+| Environment      | Jupyter Notebook    |
+| Data Analysis    | Pandas, NumPy       |
+| Visualization    | Matplotlib, Seaborn |
+| Machine Learning | Scikit-learn        |
 
 ---
 
 ## Skills Demonstrated
 
-* Data Cleaning & Preprocessing
-* Exploratory Data Analysis (EDA)
+* Data Cleaning and Preprocessing
+* Exploratory Data Analysis
 * Feature Engineering
 * Machine Learning Modeling
+* Financial Data Interpretation
 * Data Visualization
-* Financial Data Analysis
+
+---
+
+## How to Run
+
+```bash
+git clone https://github.com/your-username/FAANG-Stock-Analysis.git
+cd FAANG-Stock-Analysis
+pip install pandas numpy matplotlib seaborn scikit-learn
+jupyter notebook main.ipynb
+```
 
 ---
 
 ## Future Enhancements
 
-* Time-series models (ARIMA, LSTM)
-* Real-time data integration
-* Model optimization and hyperparameter tuning
+* Time-series forecasting models (ARIMA, LSTM)
+* Real-time market data integration
+* Hyperparameter optimization
 * Deployment using Streamlit or Flask
 
 ---
 
 ## Disclaimer
 
-This project is for **educational and research purposes only** and should not be considered financial advice.
+This project is developed strictly for **educational and academic purposes**. It should not be used for real-world financial decision-making.
 
 ---
 
 ## Author
 
-**Vinay Verma**
+<b>Vinay Verma</b>
+AI & Data Analytics Enthusiast
+
+---
+
+<p align="center"><b>Designed to meet industry expectations for AI and Data Analyst internship roles.</b></p>
 
 ---
 
