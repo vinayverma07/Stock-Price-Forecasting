@@ -153,4 +153,3 @@ This project is for **educational and research purposes only** and should not be
 
 ---
 
-⭐ This project is intended to demonstrate practical AI & Data Analytics skills suitable for internship applications.
