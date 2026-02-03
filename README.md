@@ -2,7 +2,7 @@
 
 <h1 style="color:#4F46E5;">FAANG Stock Price Analysis & Prediction</h1>
 
-<p><b style="color:#0F172A;">AI & Data Analytics Project | Internship-Oriented</b></p>
+<p><b style="color:#0F172A;">AI & Data Analytics Project</b></p>
 
 <p>
   <img src="https://img.shields.io/badge/Python-Data%20Science-blue" />
