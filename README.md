@@ -93,7 +93,7 @@ Financial markets generate high-volume, time-dependent data. Extracting meaningf
 
 | Metric      | Result                                                           |
 | ----------- | ---------------------------------------------------------------- |
-| Accuracy    | 85–90%                                                           |
+| Accuracy    | 99.94% (Using Linear Regression)                                                           |
 | Observation | Improved performance with combined trend and momentum indicators |
 
 The results indicate that machine learning models can effectively capture short-term price patterns when supported by strong feature engineering.
